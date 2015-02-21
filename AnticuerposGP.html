@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<!-- saved from url=(0050)http://foundation.zurb.com/templates4/realty.html# -->
+<html class=" js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" lang="en" data-useragent="Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Antibodies in GP</title>
+	<link rel="stylesheet" href="./Foundation/foundation4.css">
+	<script src="./Foundation Template   Realty_files/modernizr.js"></script>
+	<meta class="foundation-mq-small">
+	<meta class="foundation-mq-medium">
+	<meta class="foundation-mq-large">
+	<link rel="stylesheet" type="text/css" href="CSS/customStyle.css" />
+</head>
+
+<body onload="init();">
+	<!-- 
+
+/* Dropdowns y navbar
+-->
+	<nav class="top-bar">
+		<ul class="title-area">
+
+			<li class="name">
+				<h1>
+<a href="MainPage.html">
+Ebola
+</a>
+</h1>
+			</li>
+			<li class="toggle-topbar menu-icon"><a href="./Foundation Template   Realty_files/Foundation Template   Realty.html"><span>menu</span></a>
+			</li>
+		</ul>
+
+		<section class="top-bar-section">
+
+			<ul class="right">
+				<li class="divider"></li>
+				<!--<li class="has-dropdown not-click">
+					<a href="./Foundation Template   Realty_files/Foundation Template   Realty.html">Main Item 1</a>
+					<ul class="dropdown">
+						<li class="title back js-generated">
+							<h5><a href="./Foundation Template   Realty_files/Foundation Template   Realty.html">Back</a></h5>
+						</li>
+						<li class="has-dropdown not-click">
+							<!--<a href="./Foundation Template   Realty_files/Foundation Template   Realty.html" class="">Has Dropdown, Level 1</a>
+							<ul class="dropdown">
+								<li class="title back js-generated">
+									<h5><a href="./Foundation Template   Realty_files/Foundation Template   Realty.html">Back</a></h5>
+								</li>
+								<li><a href="./Foundation Template   Realty_files/Foundation Template   Realty.html">Dropdown Options</a>
+								</li>
+								<li><a href="./Foundation Template   Realty_files/Foundation Template   Realty.html">Level 2</a>
+								</li>
+								<li><a href="./Foundation Template   Realty_files/Foundation Template   Realty.html">Subdropdown Option</a>
+								</li>
+							</ul>
+						</li>
+
+							<li><a href="./AnticuerposGP.html">Anticuerpos en GP</a>
+							</li>
+							<li><a href="./CaracteristicasGP.html">Caracerísticas de GP</a>
+							</li>
+							
+						<li class="divider"></li>
+						
+						<li>
+							<label>Section Name</label>
+						</li>
+						<li><a href="./Foundation Template   Realty_files/Foundation Template   Realty.html">Dropdown Option</a>
+						</li>
+						<li class="divider"></li>
+						<li><a href="./Foundation Template   Realty_files/Foundation Template   Realty.html">See all →</a>
+						</li>
+
+					</ul>
+					</li>
+-->
+				<li class="divider"></li>
+
+				<li><a href="./AnticuerposGP.html">Antibodies in GP</a>
+				</li>
+				<li><a href="./CaracteristicasGP.html">GP Characteristics</a>
+				</li>
+
+				<li class="divider"></li>
+				<!--
+					<li class="has-dropdown not-click">
+						<a href="./Foundation Template   Realty_files/Foundation Template   Realty.html">Main Item 3</a>
+						<ul class="dropdown">
+							<li class="title back js-generated">
+								<h5><a href="./Foundation Template   Realty_files/Foundation Template   Realty.html">Back</a></h5>
+							</li>
+							<li><a href="./Foundation Template   Realty_files/Foundation Template   Realty.html">Dropdown Option</a>
+							</li>
+							<li class="divider"></li>
+							<li><a href="./Foundation Template   Realty_files/Foundation Template   Realty.html">See all →</a>
+							</li>
+						</ul>
+					</li>
+-->
+			</ul>
+		</section>
+	</nav>
+
+
+	<!-- 
+
+Dropdowns*/ 
+
+-->
+
+	<div class="row">
+		<div id="center-me">
+			<br/>
+			<br/>
+			<div class="large-12 columns">
+				<div class="large-3 panel columns">
+					<br/>
+					<br/>
+					<br/>
+					<h4 id="prothead"></h4>
+					<div id="protpar"></div>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+				</div>
+				<div class="panel">
+					<canvas id="drawingCanvas" width="680" height="450"></canvas>
+				</div>
+				<hr/>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+
+		<div class="large-12 columns">
+			<div class="panel">
+				<div class="row">
+					<div id="aname">
+						<table class="tablaProteinas">
+						</table>
+					</div>
+				</div>
+			</div>
+			<!--
+			<div class="row">
+				<div class="large-6 columns">
+					<div class="panel">
+						<h5>Subheader</h5>
+						<p>Sed sit amet posuere erat. Quisque in ipsum non augue euismod dapibus non et eros.</p>
+						<a href="./Foundation Template   Realty_files/Foundation Template   Realty.html" class="small button">Link</a>
+					</div>
+				</div>
+				<div class="large-6 columns">
+					<div class="panel">
+						<h5>Subheader</h5>
+						<p>Sed sit amet posuere erat. Quisque in ipsum non augue euismod dapibus non et eros.</p>
+						<a href="./Foundation Template   Realty_files/Foundation Template   Realty.html" class="small button">Link</a>
+					</div>
+				</div>
+			</div>
+			-->
+		</div>
+	</div>
+
+	<footer class="row">
+		<div class="large-12 columns">
+			<hr>
+			<div class="row">
+				<div class="large-6 columns">
+					<p>© .</p>
+				</div>
+				<!--
+<div class="large-6 columns">
+					<ul class="inline-list right">
+						<li><a href="./Foundation Template   Realty_files/Foundation Template   Realty.html">Link 1</a>
+						</li>
+						<li><a href="./Foundation Template   Realty_files/Foundation Template   Realty.html">Link 2</a>
+						</li>
+						<li><a href="./Foundation Template   Realty_files/Foundation Template   Realty.html">Link 3</a>
+						</li>
+						<li><a href="./Foundation Template   Realty_files/Foundation Template   Realty.html">Link 4</a>
+						</li>
+					</ul>
+				</div>
+-->
+			</div>
+		</div>
+	</footer>
+	<script type="text/javascript" src="Javascript/createjs-2014.12.12.combined.js"></script>
+	<script src="Javascript/jquery-2.1.3.min.js"></script>
+	<script src="./Foundation Template   Realty_files/foundation4.js"></script>
+	<script>
+		$(document).foundation();
+		var doc = document.documentElement;
+		doc.setAttribute('data-useragent', navigator.userAgent);
+	</script>
+	<script type="text/javascript" src="Javascript/anticuerposDrawings.js"></script>
+
+</body>
+
+</html>
