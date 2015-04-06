@@ -1,10 +1,12 @@
-var arrAnticuerpos = [{
+var arrAnticuerpos = [
+	{
 		"mAb": "1H3",
 		"inicio": 267,
 		"fin": 281,
 		"GPRegion": "Z:G1",
-		"Conservation": "100.00%",
-		"EpType": "Linear",
+		"Conservation": "100%",
+		"EpType": "Conformational",
+		"EpSeq": "SNTTGKLIWKVNPEI",
 		"Level": 1
 	},
 	{
@@ -13,7 +15,8 @@ var arrAnticuerpos = [{
 		"fin": 515,
 		"GPRegion": "Z:G2",
 		"Conservation": "93.30%",
-		"EpType": "Linear",
+		"EpType": "Conformational",
+		"EpSeq": "REAIVNAQPKCNPNL",
 		"Level": 4
 	},
 	{
@@ -23,6 +26,7 @@ var arrAnticuerpos = [{
 		"GPRegion": "Z:G2",
 		"Conservation": "93.30%",
 		"EpType": "Linear",
+		"EpSeq": "REAIVNAQPKCNPNL",
 		"Level": 5
 	},
 	{
@@ -32,15 +36,17 @@ var arrAnticuerpos = [{
 		"GPRegion": "Z:G1",
 		"Conservation": "73.30%",
 		"EpType": "Linear",
+		"EpSeq": "DPGTNTTTEDHKIMA",
 		"Level": 7
 	},
 	{
-		"mAb": "5.00E+06",
+		"mAb": "5E6.",
 		"inicio": 401,
 		"fin": 415,
 		"GPRegion": "Z:G1",
-		"Conservation": "80.00%",
+		"Conservation": "80%",
 		"EpType": "Linear",
+		"EpSeq": "ATQVEQHHRRTDNDS",
 		"Level": 1
 	},
 	{
@@ -50,6 +56,7 @@ var arrAnticuerpos = [{
 		"GPRegion": "Z,GP1",
 		"Conservation": "91.50%",
 		"EpType": "Conformational",
+		"EpSeq": "GAFFLYDRLASTVIYRGTTFAEGVVAFLILPQAKKDFFSSHPLREPVNATEDPSSGYYSTTIRYQATGFGTNETEYLFEVDNLTYVQLESRFTPQFLLQLNETIYTSGKRSNTTGKLIWKVNPEIDTTIGEWAFWETKKNLTRKIRSEELSFTAVSNRAKNISGQSPARTSSDPGTNTTTEDHKIMASENSSAMVQVHSQGREAAVSHLTTLA",
 		"Level": 4
 	},
 	{
@@ -59,15 +66,17 @@ var arrAnticuerpos = [{
 		"GPRegion": "Z,GP1",
 		"Conservation": "91.50%",
 		"EpType": "Conformational",
+		"EpSeq": "GAFFLYDRLASTVIYRGTTFAEGVVAFLILPQAKKDFFSSHPLREPVNATEDPSSGYYSTTIRYQATGFGTNETEYLFEVDNLTYVQLESRFTPQFLLQLNETIYTSGKRSNTTGKLIWKVNPEIDTTIGEWAFWETKKNLTRKIRSEELSFTAVSNRAKNISGQSPARTSSDPGTNTTTEDHKIMASENSSAMVQVHSQGREAAVSHLTTLA",
 		"Level": 5
 	},
 	{
-		"mAb": "10C3",
+		"mAb": "10C8",
 		"inicio": 157,
 		"fin": 369,
 		"GPRegion": "Z,GP1",
 		"Conservation": "91.50%",
 		"EpType": "Conformational",
+		"EpSeq": "GAFFLYDRLASTVIYRGTTFAEGVVAFLILPQAKKDFFSSHPLREPVNATEDPSSGYYSTTIRYQATGFGTNETEYLFEVDNLTYVQLESRFTPQFLLQLNETIYTSGKRSNTTGKLIWKVNPEIDTTIGEWAFWETKKNLTRKIRSEELSFTAVSNRAKNISGQSPARTSSDPGTNTTTEDHKIMASENSSAMVQVHSQGREAAVSHLTTLA",
 		"Level": 6
 	},
 	{
@@ -75,8 +84,9 @@ var arrAnticuerpos = [{
 		"inicio": 42,
 		"fin": 43,
 		"GPRegion": "Z:GP1 GP2",
-		"Conservation": "100.00%",
+		"Conservation": "100%",
 		"EpType": "Conformational",
+		"EpSeq": "LVVNAQPKCNPHNQDGLIC",
 		"Level": 1
 	},
 	{
@@ -84,8 +94,9 @@ var arrAnticuerpos = [{
 		"inicio": 505,
 		"fin": 513,
 		"GPRegion": "Z:GP1 GP2",
-		"Conservation": "100.00%",
+		"Conservation": "100%",
 		"EpType": "Conformational",
+		"EpSeq": "LVVNAQPKCNPHNQDGLIC",
 		"Level": 1
 	},
 	{
@@ -93,10 +104,11 @@ var arrAnticuerpos = [{
 		"inicio": 549,
 		"fin": 556,
 		"GPRegion": "Z:GP1 GP2",
-		"Conservation": "100.00%",
+		"Conservation": "100%",
 		"EpType": "Conformational",
+		"EpSeq": "LVVNAQPKCNPHNQDGLIC",
 		"Level": 1
-	},
+	}, /*10*/
 	{
 		"mAb": "13F6",
 		"inicio": 401,
@@ -104,6 +116,7 @@ var arrAnticuerpos = [{
 		"GPRegion": "Z,GP1",
 		"Conservation": "76.40%",
 		"EpType": "Linear",
+		"EpSeq": "ATQVEQHHRRTDNDSTA",
 		"Level": 5
 	},
 	{
@@ -113,6 +126,7 @@ var arrAnticuerpos = [{
 		"GPRegion": "Z,GP1",
 		"Conservation": "82.40%",
 		"EpType": "Linear",
+		"EpSeq": "HNTPVYKLDISEATQVE",
 		"Level": 4
 	},
 	{
@@ -122,17 +136,20 @@ var arrAnticuerpos = [{
 		"GPRegion": "Z,GP1",
 		"Conservation": "94.10%",
 		"EpType": "Linear",
+		"EpSeq": "GKLGLITNTIAGVAGLI",
 		"Level": 7
 	},
 	{
-		"mAb": "6.00E+03",
+		"mAb": "6E3.",
 		"inicio": 401,
 		"fin": 417,
 		"GPRegion": "Z:GP1",
 		"Conservation": "76.40%",
 		"EpType": "Linear",
+		"EpSeq": "ATQVEQHHRRTDNDSTA",
 		"Level": 7
 	},
+
 	{
 		"mAb": "13C6",
 		"inicio": 392,
@@ -140,8 +157,9 @@ var arrAnticuerpos = [{
 		"GPRegion": "Z,S,IC:GP1,GP2, sGP",
 		"Conservation": "93.60%",
 		"EpType": "Conformational",
-		"Level": 6	
-	},
+		"EpSeq": "RSEELSFTAVSNRAKNISGQSPARTSSDPGTNTTTEDHKIMASENSSAMVQVHSQGREAAVSHLTTLATISTSPQPPTTKPGPDNSTHNTPVYKLDISEATQVEQHHRRTDNDSTASDTPPATTAAGPPKAENTNTSKGTDLLDPATTTSPQNHSETAGNNNTHHQDTGEESASSGKLTGGRRARREAIVNAQPKCNPNLHYWTTQDEGAAIGLAWIPYFGPAAEGIYTEGLMHNQDGLICGLRQLANETTQALQLFLRATTELRTFSILNRKAIDFLLQRWGGTCHILGPDCCIEPHDWTKNITDKIDQIIHDFVDKTL",
+		"Level": 6
+	}, /* 15 */
 	{
 		"mAb": "13C6",
 		"inicio": 494,
@@ -149,7 +167,8 @@ var arrAnticuerpos = [{
 		"GPRegion": "Z,S,IC:GP1,GP2, sGP",
 		"Conservation": "93.60%",
 		"EpType": "Conformational",
-		"Level": 6	
+		"EpSeq": "RSEELSFTAVSNRAKNISGQSPARTSSDPGTNTTTEDHKIMASENSSAMVQVHSQGREAAVSHLTTLATISTSPQPPTTKPGPDNSTHNTPVYKLDISEATQVEQHHRRTDNDSTASDTPPATTAAGPPKAENTNTSKGTDLLDPATTTSPQNHSETAGNNNTHHQDTGEESASSGKLTGGRRARREAIVNAQPKCNPNLHYWTTQDEGAAIGLAWIPYFGPAAEGIYTEGLMHNQDGLICGLRQLANETTQALQLFLRATTELRTFSILNRKAIDFLLQRWGGTCHILGPDCCIEPHDWTKNITDKIDQIIHDFVDKTL",
+		"Level": 6
 	},
 	{
 		"mAb": "6D3",
@@ -158,6 +177,7 @@ var arrAnticuerpos = [{
 		"GPRegion": "Z,S,IC:GP1,GP2 sGP",
 		"Conservation": "93.60%",
 		"EpType": "Conformational",
+		"EpSeq": "RSEELSFTAVSNRAKNISGQSPARTSSDPGTNTTTEDHKIMASENSSAMVQVHSQGREAAVSHLTTLATISTSPQPPTTKPGPDNSTHNTPVYKLDISEATQVEQHHRRTDNDSTASDTPPATTAAGPPKAENTNTSKGTDLLDPATTTSPQNHSETAGNNNTHHQDTGEESASSGKLTGGRRARREAIVNAQPKCNPNLHYWTTQDEGAAIGLAWIPYFGPAAEGIYTEGLMHNQDGLICGLRQLANETTQALQLFLRATTELRTFSILNRKAIDFLLQRWGGTCHILGPDCCIEPHDWTKNITDKIDQIIHDFVDKTL",
 		"Level": 3
 	},
 	{
@@ -167,6 +187,7 @@ var arrAnticuerpos = [{
 		"GPRegion": "Z,S,IC:GP1,GP2 sGP",
 		"Conservation": "93.60%",
 		"EpType": "Conformational",
+		"EpSeq": "RSEELSFTAVSNRAKNISGQSPARTSSDPGTNTTTEDHKIMASENSSAMVQVHSQGREAAVSHLTTLATISTSPQPPTTKPGPDNSTHNTPVYKLDISEATQVEQHHRRTDNDSTASDTPPATTAAGPPKAENTNTSKGTDLLDPATTTSPQNHSETAGNNNTHHQDTGEESASSGKLTGGRRARREAIVNAQPKCNPNLHYWTTQDEGAAIGLAWIPYFGPAAEGIYTEGLMHNQDGLICGLRQLANETTQALQLFLRATTELRTFSILNRKAIDFLLQRWGGTCHILGPDCCIEPHDWTKNITDKIDQIIHDFVDKTL",
 		"Level": 3
 	},
 	{
@@ -176,6 +197,7 @@ var arrAnticuerpos = [{
 		"GPRegion": "Z:GP2",
 		"Conservation": "97.50%",
 		"EpType": "Conformational",
+		"EpSeq": "QDEGAAIGLAWIPYFGPAAEGIYTEGLMHNQDGLICGLRQ",
 		"Level": 7
 	},
 	{
@@ -185,15 +207,17 @@ var arrAnticuerpos = [{
 		"GPRegion": "Z:GP1,sGP",
 		"Conservation": "97.40%",
 		"EpType": "Conformational",
+		"EpSeq": "MGVTGILQLPRDRFKRTSFFLWVIILFQRTFSIPLGVIHNSTLQVSEVDKLVCRDKLSSTNQLRSVGLNLEGNGVATDVPSATKRWGFRSGVPPKVVNYEAGEWAENCYNLEIKKPDGSECLPAAPDGIRGFPRCRYVHKVSGTGPCAGDFAFHKEGAFFLYDRLASTVIYRGTTFAEGVVAFLILPQAKKDFFSSHPLREPVNATEDPSSGYYSTTIRYQATGFGTNETEY",
 		"Level": 2
-	},
+	}, /* 20 */
 	{
 		"mAb": "JP3K11",
 		"inicio": 302,
 		"fin": 479,
 		"GPRegion": "Z:GP1 GP2, sGP",
-		"Conservation": "90.00%",
+		"Conservation": "90%",
 		"EpType": "Conformational",
+		"EpSeq": "RSEELSFTAVSNRAKNISGQSPARTSSDPGTNTTTEDHKIMASENSSAMVQVHSQGREAAVSHLTTLATISTSPQPPTTKPGPDNSTHNTPVYKLDISEATQVEQHHRRTDNDSTASDTPPATTAAGPPKAENTNTSKGTDLLDPATTTSPQNHSETAGNNNTHHQDTGEESASSGKLVNAQPKCNPNHNQDGLIC",
 		"Level": 2
 	},
 	{
@@ -201,8 +225,9 @@ var arrAnticuerpos = [{
 		"inicio": 505,
 		"fin": 514,
 		"GPRegion": "Z:GP1 GP2, sGP",
-		"Conservation": "90.00%",
+		"Conservation": "90%",
 		"EpType": "Conformational",
+		"EpSeq": "RSEELSFTAVSNRAKNISGQSPARTSSDPGTNTTTEDHKIMASENSSAMVQVHSQGREAAVSHLTTLATISTSPQPPTTKPGPDNSTHNTPVYKLDISEATQVEQHHRRTDNDSTASDTPPATTAAGPPKAENTNTSKGTDLLDPATTTSPQNHSETAGNNNTHHQDTGEESASSGKLVNAQPKCNPNHNQDGLIC",
 		"Level": 2
 	},
 	{
@@ -210,8 +235,9 @@ var arrAnticuerpos = [{
 		"inicio": 549,
 		"fin": 556,
 		"GPRegion": "Z:GP1 GP2, sGP",
-		"Conservation": "90.00%",
+		"Conservation": "90%",
 		"EpType": "Conformational",
+		"EpSeq": "RSEELSFTAVSNRAKNISGQSPARTSSDPGTNTTTEDHKIMASENSSAMVQVHSQGREAAVSHLTTLATISTSPQPPTTKPGPDNSTHNTPVYKLDISEATQVEQHHRRTDNDSTASDTPPATTAAGPPKAENTNTSKGTDLLDPATTTSPQNHSETAGNNNTHHQDTGEESASSGKLVNAQPKCNPNHNQDGLIC",
 		"Level": 2
 	},
 	{
@@ -219,8 +245,9 @@ var arrAnticuerpos = [{
 		"inicio": 293,
 		"fin": 307,
 		"GPRegion": "Z:GP1,sGP",
-		"Conservation": "100.00%",
+		"Conservation": "100%",
 		"EpType": "Linear",
+		"EpSeq": "TKKNLTRKIRSEELSC ",
 		"Level": 1
 	}];
 
@@ -228,13 +255,18 @@ const ANTICUERPOSCOUNT = arrAnticuerpos.length;
 
 $(document).ready(function () {
 	var tabla = $("table.tablaProteinas");
-	tabla.html("<tr><th>mAb</th><th>Start</th><th>End</th><th>Specific strain: GP region</th><th>Percentage of conservation</th><th>Epitope type</th></tr>");
+	tabla.html("<tr><th>mAb</th><th>Range</th><th>Specific strain: GP region</th><th>Percentage of conservation</th><th>Epitope type</th><th>Epitopes</th></tr>");
+	var tablaEpitopes = $("table.tablaEpitopes");
+	tablaEpitopes.html("<tr><th>mAb</th><th>Epitopes</th></tr>");
+
 	for (var ii = 0; ii < ANTICUERPOSCOUNT; ii++) {
-		var builtHtml = "<tr><td>" + arrAnticuerpos[ii].mAb + "</td><td>" + arrAnticuerpos[ii].inicio + "</td><td>" + arrAnticuerpos[ii].fin + "</td><td>" + arrAnticuerpos[ii].GPRegion + "</td><td>" + arrAnticuerpos[ii].Conservation + "</td><td>" + arrAnticuerpos[ii].EpType + "</td></tr>";
+		var builtHtml = "<tr><td>" + arrAnticuerpos[ii].mAb + "</td><td>" + arrAnticuerpos[ii].inicio + " - " + arrAnticuerpos[ii].fin + "</td><td>" + arrAnticuerpos[ii].GPRegion + "</td><td>" + arrAnticuerpos[ii].Conservation + "</td><td>" + arrAnticuerpos[ii].EpType + "</td><td style='font-size:5px;'>" + arrAnticuerpos[ii].EpSeq + "</td></tr>";
 		tabla.html(tabla.html() + builtHtml);
+
+		builtHtml = "<tr><td>" + arrAnticuerpos[ii].mAb + "</td><td>" + arrAnticuerpos[ii].EpSeq + "</td></tr>";
+		tablaEpitopes.html(tablaEpitopes.html() + builtHtml);
 	}
 });
-
 
 
 var ANCHO = 45;
@@ -273,7 +305,7 @@ function init() {
 	stage.addChild(MAINGP);
 	// Termina creación de GP superior 
 
-	for (var z = 0; z < ANTICUERPOSCOUNT ; z++) {
+	for (var z = 0; z < ANTICUERPOSCOUNT; z++) {
 		var j = arrAnticuerpos[z];
 		tags.push(new createjs.Text(j.mAb, TEXT, TEXTCOLOR));
 		shapes.push(new createjs.Shape());
@@ -327,7 +359,7 @@ function init() {
 		stage.addChild(rec2);
 		stage.update();
 	};
-	
+
 	containers[0].on("click", function (evt) {
 		changeDescription(0);
 		stage.update();
@@ -428,7 +460,7 @@ function init() {
 		changeDescription(24);
 		stage.update();
 	});
-	
+
 
 	stage.update();
 
@@ -439,7 +471,6 @@ function filter(pos1, pos2) {
 	var arr = new Array();
 	for (var i = 0; i < ANTICUERPOSCOUNT; i++) {
 		if (arrAnticuerpos[i].fin > pos1 && arrAnticuerpos[i].inicio < pos2) {
-			console.log(i);
 			arr.push(arrAnticuerpos[i]);
 		}
 	}
@@ -448,11 +479,15 @@ function filter(pos1, pos2) {
 
 function repopulateTable(arr) {
 	var tabla = $("table.tablaProteinas");
+	var tablaEpitopes = $("table.tablaEpitopes");
 	l = arr.length;
-	tabla.html("<tr><th>mAb</th><th>Start</th><th>End</th><th>Specific strain: GP region</th><th>Percentage of conservation</th><th>Epitope type</th></tr>");
+	tabla.html("<tr><th>mAb</th><th>Range</th><th>Specific strain: GP region</th><th>Percentage of conservation</th><th>Epitope type</th><th>Epitopes</th></tr>");
+	tablaEpitopes.html("<tr><th>mAb</th><th>Epitopes</th></tr>");
 	for (var ii = 0; ii < l; ii++) {
-		var builtHtml = "<tr><td>" + arr[ii].mAb + "</td><td>" + arr[ii].inicio + "</td><td>" + arr[ii].fin + "</td><td>" + arr[ii].GPRegion + "</td><td>" + arr[ii].Conservation + "</td><td>" + arr[ii].EpType + "</td></tr>";
+		var builtHtml = "<tr><td>" + arr[ii].mAb + "</td><td>" + arr[ii].inicio + " - " + arr[ii].fin + "</td><td>" + arr[ii].GPRegion + "</td><td>" + arr[ii].Conservation + "</td><td>" + arr[ii].EpType + "</td><td style='font-size:5px;'>" + arr[ii].EpSeq + "</td></tr>";
 		tabla.html(tabla.html() + builtHtml);
+		builtHtml = "<tr><td>" + arr[ii].mAb + "</td><td>" + arr[ii].EpSeq + "</td></tr>";
+		tablaEpitopes.html(tablaEpitopes.html() + builtHtml);
 	}
 }
 
@@ -461,7 +496,7 @@ function changeDescription(num) {
 	var hdr = $("#prothead");
 	hdr.html("mAb: " + arrAnticuerpos[num].mAb);
 	var section = $("#protpar");
-	section.html("<p><hr />start: " + arrAnticuerpos[num].inicio + "<hr />end: " + arrAnticuerpos[num].fin + "<hr />GP Region: " + arrAnticuerpos[num].GPRegion + "<hr />Conservation: " + arrAnticuerpos[num].Conservation + "<hr />EpType: " + arrAnticuerpos[num].EpType +  "</p>");
+	section.html("<p><hr />Range: " + arrAnticuerpos[num].inicio + " - " + arrAnticuerpos[num].fin + "<hr />GP Region: " + arrAnticuerpos[num].GPRegion + "<hr />Conservation: " + arrAnticuerpos[num].Conservation + "<hr />EpType: " + arrAnticuerpos[num].EpType + "</p>");
 }
 
 
@@ -484,31 +519,33 @@ function getColor(num) {
 		return "#33a02c";
 		break;
 	case 4:
-	case 15:
+	case 5:
 		return "#fb9a99";
 		break;
-	case 5:
+	case 15:
 	case 16:
 		return "#e31a1c";
 		break;
 	case 6:
-	case 17:
+	case 19:
 		return "#fdbf6f";
 		break;
-	case 7:
-	case 18:
+	case 10:
+	case 8:
+	case 9:
 		return "#cab2d6";
 		break;
-	case 8:
-	case 19:
+	case 18:
+	case 17:
 		return "#6a3d9a";
 		break;
-	case 9:
+	case 7:
 	case 20:
 		return "#ffff99";
 		break;
-	case 10:
+	case 23:
 	case 21:
+	case 22:
 		return "#b15928";
 		break;
 	default:
